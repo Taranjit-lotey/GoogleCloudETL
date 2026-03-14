@@ -1,0 +1,1001 @@
+Car Make,model_NAME,YEAR ,price($),Mileage(km) ,colour/Color, fuel_Type,No. of Owners
+NA,Camry,2007,34098 USD,unknown,blue,Gasoline,5
+chevy,3 Series,2006,7695.0,NA,green,Gasoline,4th
+BMW,silverado,05,#N/A,242357,SILVER,DIESEL,five
+VW,Corolla,nineteen ninety five,,,?,Gas,
+Volkswagen,F 150,22,"$15,947",,black,Unknown,5th
+  volkswagen  ,f150,twenty twenty,,  154868.9 miles  ,green,Gas,
+TOYOTA,camry,11,11287.0,"269,565",white,DIESEL,N/A
+bmw,silverado,-,$20373,221187.0,BLUE,DIESEL,4th
+volkswagen,NULL,1999 model,26890.0,155560,White,petrol,N/A
+Volkswagen,Accord,,NA,164722.0,white,  DIESEL  ,NA
+HONDA,F-150,1998.0,36k,37611.6 miles,Blue,null,N/A
+ford,silverado,92,50393,305402KM,green,gasoline,  4 owners  
+Chevrolet,Elantra,,negotiable,51873.8 miles,NA,  Hybrid  ,one
+Honda,F 150,2006 model,N/A,null,-,hybrid,
+Volkswagen,mustang,16,,unknown,black,,N/A
+TOYOTA,mustang,NULL,89012.00,331843KM,unknown,electric,one
+Volkswagen,Golf,,negotiable,,Blue,HYBRID,2nd
+TOYOTA,mustang,null,"$37,614",$54857,null,,1.0
+volkswagen,Sentra,2004,,,Black,null,N/A
+Chevrolet,3series,2007 model,,132262,RED,N/A,1 owner
+BMW,mustang,1996 model,77849.00,13462 km,black,Hybrid,
+  chevy  ,Golf,,59080.0,92346.0,NULL,DIESEL,5.0
+Honda,silverado,'90,n/a,62254.8 miles,RED,diesel,N/A
+Ford,silverado,,27105.0,113447KM,gray,,5
+BMW,camry,2006,64616 USD,59814,RED,Hybrid,four
+bmw,Civic,nineteen ninety five,"$88,563",42565,BLUE,diesel,2.0
+camry,TOYOTA,2000,  negotiable  ,311974KM,N/A,Electric,N/A
+BMW,A4,'23,negotiable,231855 km,Black,Gas,5.0
+volkswagen,Golf,,negotiable,$58476,Green,NA,5th
+HONDA,Silverado,two thousand,,157220.6 miles,gray,diesel,
+chevy,Accord,twenty ten,51441.00,unknown,Silver,  Diesel  ,2
+ford,Corolla,,N/A,unknown,unknown,Hybrid,  1 owner  
+Chevrolet,camry,twenty ten,48984 USD,"196,524",Grey,gasoline,two
+nissan,Mustang,null,,,SILVER,plug-in hybrid,NULL
+ford,F-150,1992,42k,,red,EV,N/A
+B.M.W,3series,2013,negotiable,,Red,DIESEL,N/A
+toyota,  camry  ,09,,60880.0,Blue,diesel,5 owners
+chevy,silverado,,#N/A,208739 km,  Black  ,Diesel,-
+ford,  silverado  ,null,N/A,35819.1 miles,,Petrol,
+Toyota,camry,2020 model,negotiable,223490 km,,Gasoline,4
+nissan,Golf,2004 model,$56239,,,Hybrid,4.0
+nissan,camry,two thousand,"$80,696",163813.0,  silver  ,Gasoline,five
+Chevrolet,  3 Series  ,90,25777,75105 km,N/A,Hybrid,N/A
+Volkswagen,F-150,n/a,58k,58138,black,plug-in hybrid,five
+nissan,Camry,'19,,164133KM,N/A,hybrid,5
+Ford,Silverado,2022,NULL,183173KM,silver,gasoline,two
+Audi,camry,2012,68497,,black,HYBRID,4th
+Chevrolet,Corolla,'22,86689.0,"90,470",red,diesel,
+chevy,mustang,'15,N/A,"311,972",RED,Electric,n/a
+Volkswagen,camry,11,"$83,006","68,707",unknown,Hybrid,N/A
+Nissan,Silverado,2023,negotiable,,White,gasoline,
+NULL,civic,2014,N/A,"  196,562  ",,NA,three
+  #N/A  ,Corolla,  two thousand  ,"$67,513",312863KM,green,-,5.0
+B.M.W,F-150,,"$19,486",  23244.0  ,NA,NA,N/A
+toyota,Accord,'07,N/A,"192,948",Grey,Hybrid,4.0
+chevy,Sentra,2017.0,,"335,266",red,PETROL,4
+Honda,civic,nineteen ninety five,5k,97542KM,gray,Unknown,N/A
+BMW,F 150,13,negotiable,117567,n/a,Diesel,2 owners
+volkswagen,Altima,two thousand,18k,"226,816",Green,petrol,one
+AUDI,Accord,,5718 USD,unknown,red,DIESEL,
+Chevrolet,3 Series,2015.0,19139.00,194269.0,Green,,1
+Toyota,Corolla,2015.0,68249,239720,white,Diesel,5 owners
+Honda,Sentra,N/A,"$18,864",31502.8 miles,SILVER,EV,
+VW,Altima,'09,64245 USD,8722KM,silver,electric,1st
+Ford,Civic,1991 model,59807.00,N/A,Grey,gasoline,
+Honda,Sentra,20,27k,129247KM,Black,,N/A
+chevy,Golf,-,"$64,793",112190 km,White,,
+bmw,mustang,10,null,338636,red,PETROL,five
+ford,Silverado,2019 model,negotiable,101088KM,Blue,electric,N/A
+Honda,Accord,2009 model,78344.00,300352,Red,DIESEL,N/A
+VW,silverado,two thousand and five,$34435,312378 km,RED,Unknown,4
+HONDA,Camry,NULL,null,1580 km,White,PETROL,
+n/a,  3 Series  ,1997 model,25392.00,281678,SILVER,Unknown,2nd
+AUDI,-,'18,80352.00,15860.8 miles,white,petrol,4th
+BMW,Elantra,2021.0,,unknown,?,Hybrid,five
+chevy,Corolla,nineteen ninety five,$26966,16793.0 miles,Black,Hybrid,NA
+Nissan,Golf,twenty ten,negotiable,188355 km,black,DIESEL,3rd
+Chevrolet,  Mustang  ,21,,257213.0,,Gas,three
+AUDI,null,2021,4061,3466KM,N/A,,
+HONDA,Corolla,'92,  14255  ,212482,SILVER,Hybrid,N/A
+toyota,F 150,2010,4k,"108,610",N/A,gasoline,
+Nissan,Accord,1991.0,85115.0,unknown,Gray,plug-in hybrid,2.0
+TOYOTA,F 150,2017,60830,null,green,Unknown,4 owners
+nissan,null,twenty twenty,12082.00,189333.0,Black,diesel,4
+VW,Altima,2005,NULL,122536.4 miles,Black,Hybrid,
+Nissan,Corolla,twenty ten,80372.0,251257,N/A,Hybrid,5th
+B.M.W,Silverado,2023.0,,304358.0,N/A,diesel,4th
+  Hyundai  ,Accord,1994 model,$41356,"23,426",Blue,Petrol,N/A
+TOYOTA,Altima,'96,$72371,98020KM,silver,electric,N/A
+ford,Silverado,14,negotiable,"312,698",blue,Hybrid,
+Audi,Camry,2004.0,"$40,284",17141.0,Black,diesel,
+toyota,Golf,06,47688 USD,,Gray,#N/A,2nd
+ford,Elantra,93,N/A,213721.6 miles,blue,gasoline,2nd
+TOYOTA,  Golf  ,,10300.00,280192.0,SILVER,Diesel,4 owners
+  ford  ,mustang,2000,N/A,"48,937",?,NULL,NA
+Ford,F-150,2010 model,"$50,177",156895 km,blue,Hybrid,
+B.M.W,Mustang,,  34k  ,180322.6 miles,unknown,Electric,
+,Elantra,nineteen ninety five,73612,90581KM,gray,PETROL,one
+Audi,N/A,2009,,229368 km,white,petrol,  2.0  
+nissan,Mustang,'23,10371.0,,N/A,PETROL,4
+volkswagen,Elantra,,$44179,,Grey,NULL,3
+B.M.W,Golf,13,79554,unknown,null,,2
+Volkswagen,Elantra,13,,44513 km,N/A,Gasoline,
+BMW,Golf,,43160.00,  213129.0  ,Blue,,3 owners
+NA,Camry,'15,$61270,"291,479",green,diesel,  1  
+Hyundai,camry,'00,,NA,SILVER,plug-in hybrid,1 owner
+NA,n/a,NULL,,285484KM,gray,EV,five
+  chevy  ,F 150,2001,N/A,"310,650",Silver,,
+Chevrolet,camry,,N/A,307552 km,blue,Gasoline,5 owners
+BMW,3series,#N/A,92242 USD,unknown,blue,Gas,1st
+Hyundai,Camry,,$29483,130831,RED,EV,3
+N/A,Corolla,  2011  ,#N/A,196848.0,BLUE,PETROL,N/A
+  HONDA  ,Sentra,2020 model,28k,50849 km,-,Diesel,2.0
+chevy,silverado,,79296.0,unknown,green,petrol,-
+ford,camry,2017.0,N/A,228271 km,White,gasoline,5
+  HONDA  ,silverado,twenty ten,55856,"138,483",SILVER,plug-in hybrid,NULL
+ford,mustang,'18,  N/A  ,-,Grey,PETROL,N/A
+Silverado,Hyundai,2015.0,negotiable,64945.0,,Petrol,two
+Volkswagen,Camry,,64140,  43113.7 miles  ,?,Gas,5 owners
+volkswagen,Sentra,2008.0,N/A,56677KM,  gray  ,null,3 owners
+bmw,Accord,two thousand and five,"$91,957","280,302",?,plug-in hybrid,3 owners
+Audi,Altima,two thousand and five,,101996,  Green  ,Gasoline,4th
+-,Altima,'00,#N/A,46159.0,blue,,4.0
+HONDA,Golf,  2023.0  ,negotiable,,Silver,hybrid,  2nd  
+toyota,F-150,1991,null,60707KM,Grey,HYBRID,4.0
+Volkswagen,,twenty ten,94200.00,214830.0,black,Gas,1 owner
+toyota,mustang,,90705,163948,Grey,Gasoline,1st
+BMW,F-150,twenty ten,  93248 USD  ,30747.0,BLUE,Gasoline,four
+B.M.W,Accord,'23,N/A,unknown,Blue,hybrid,two
+Audi,Golf,,67333,234392 km,Silver,Gasoline,4.0
+chevy,Golf,1997.0,14k,,white,  Petrol  ,N/A
+Audi,F-150,'18,61950,345220,N/A,Unknown,
+Honda,3series,twenty twenty,40k,,blue,gasoline,N/A
+nissan,silverado,'08,"$57,363",6695,Green,n/a,N/A
+HONDA,camry,2014,52797,218400KM,,electric,five
+Volkswagen,F-150,14,"$7,326",224661KM,n/a,,3
+TOYOTA,3 Series,#N/A,29964.00,347778.0,Silver,electric,
+chevy,Silverado,2022.0,,255225 km,red,Electric,2
+Golf,Toyota,,  6k  ,45886 km,RED,petrol,
+HONDA,  mustang  ,'95,"$38,899",  142615.3 miles  ,SILVER,Hybrid,one
+TOYOTA,mustang,03,"$47,069",68993.8 miles,Grey,Unknown,
+B.M.W,F-150,'08,N/A,36599KM,NA,electric,N/A
+AUDI,null,2007 model,$20350,n/a,White,DIESEL,1st
+  NULL  ,Sentra,twenty twenty,"$69,388",73594.0,Gray,Gas,2 owners
+Audi,F 150,2014.0,,123338.7 miles,N/A,PETROL,
+N/A,F-150,20,,251036,gray,Diesel,five
+VW,A4,,"$30,752",215360KM,unknown,  gasoline  ,five
+Volkswagen,F-150,,,unknown,blue,,1 owner
+TOYOTA,mustang,twenty twenty,$55562,135164,White,Petrol,1.0
+Honda,mustang,'12,"$94,470",208734 km,null,Gasoline,
+Nissan,Sentra,'23,-,194684.3 miles,red,  Gas  ,NA
+TOYOTA,silverado,08,75284 USD,189946.6 miles,n/a,EV,3.0
+Hyundai,Golf,1991 model,n/a,37885.6 miles,#N/A,PETROL,4th
+Honda,Civic,,$28577,130912 km,NULL,EV,2
+ford,camry,2023.0,,NA,green,petrol,5.0
+chevy,3 Series,2015 model,38651.00,236311 km,BLUE,gasoline,N/A
+Nissan,F-150,'00,N/A,112966KM,Black,plug-in hybrid,1 owner
+AUDI,mustang,2019 model,84799 USD,unknown,BLUE,electric,4th
+Honda,Corolla,  '03  ,23877.0,208166,null,Gasoline,1
+volkswagen,  Mustang  ,'18,19709.0,282742KM,  BLUE  ,-,5 owners
+B.M.W,Camry,13,"$26,716",unknown,green,hybrid,4th
+AUDI,A4,2002,"$44,027",10168 km,blue,petrol,5 owners
+VW,F 150,'02,negotiable,124335.6 miles,Red,Gasoline,N/A
+bmw,,,84k,227625 km,Silver,Petrol,2.0
+volkswagen,F-150,,negotiable,75816.0 miles,Silver,,3
+TOYOTA,#N/A,'99,60901,unknown,Black,,N/A
+ford,F 150,1992,NA,unknown,NA,Diesel,N/A
+Volkswagen,camry,1994,41833.00,unknown,White,Unknown,one
+Golf,  AUDI  ,,,,Silver,EV,
+#N/A,mustang,twenty twenty,30157 USD,"165,100",Red,DIESEL,5
+HONDA,camry,null,-,-,Silver,EV,N/A
+Chevrolet,Corolla,2020,,unknown,green,Hybrid,3rd
+  bmw  ,NA,2012.0,79840 USD,  343623.0  ,Red,Electric,N/A
+Volkswagen,Mustang,twenty twenty,83663,74106KM,,n/a,four
+Chevrolet,A4,nineteen ninety five,#N/A,60743.3 miles,White,Unknown,
+Chevrolet,3series,98,13507 USD,"200,386",Green,diesel,4.0
+Corolla,Chevrolet,,N/A,unknown,Silver,  gasoline  ,1.0
+VW,f150,,,245767.0,?,EV,2.0
+  nissan  ,3series,1992 model,81682 USD,199425,Silver,Hybrid,null
+toyota,Silverado,1999,"$62,762","338,743",Gray,PETROL,5.0
+Volkswagen,Sentra,2000.0,51634 USD,"288,539",SILVER,  petrol  ,two
+  B.M.W  ,Civic,nineteen ninety five,61472.00,#N/A,,PETROL,
+AUDI,Altima,,61k,NULL,silver,petrol,1 owner
+AUDI,mustang,two thousand and five,"$81,802",  165931.0  ,Black,Unknown,
+  #N/A  ,Camry,2002.0,92441.0,N/A,Black,PETROL,3rd
+toyota,Silverado,N/A,76048 USD,  null  ,green,,1st
+B.M.W,3 Series,2018,N/A,113319,Green,Electric,  2nd  
+Nissan,Silverado,n/a,2538,163043 km,red,PETROL,
+volkswagen,Accord,2007,20k,,null,diesel,
+volkswagen,  Corolla  ,'19,76k,69098.0,RED,HYBRID,1.0
+ford,Silverado,,55k,56089.0,NA,,1.0
+Audi,A4,1997,  negotiable  ,"312,515",Gray,electric,5 owners
+-,Golf,2002 model,N/A,165988 km,black,-,
+volkswagen,Civic,,,unknown,White,,four
+AUDI,F 150,2019.0,68770.00,"222,363",green,HYBRID,4.0
+Honda,  Golf  ,'23,$12254,274389KM,unknown,PETROL,
+VW,Altima,2000,77k,27063.0,,Electric,5
+Volkswagen,camry,,,unknown,n/a,gasoline,four
+VW,Mustang,'99,N/A,227925,Red,Electric,4
+BMW,Accord,1990,90185.0,,NA,Petrol,N/A
+BMW,Mustang,,,,n/a,HYBRID,NA
+Hyundai,Mustang,1996,negotiable,"38,230",  RED  ,DIESEL,N/A
+VW,F-150,2024,$49044,,,Electric,
+Hyundai,Civic,'98,$6679,,Red,diesel,4.0
+ford,A4,1991,"$63,763",,red,diesel,2 owners
+Chevrolet,  Civic  ,1992.0,"$79,736",,Silver,PETROL,one
+VW,f150,'03,20754.00,"335,452",Black,Unknown,
+bmw,Mustang,93,"$27,391",59076,blue,,4
+Chevrolet,civic,null,44746.00,unknown,Blue,diesel,four
+BMW,Accord,two thousand,$40687,  unknown  ,null,  Gas  ,5th
+Volkswagen,camry,'17,71615.00,206737 km,gray,Gasoline,n/a
+Hyundai,Camry,'94,52k,108476.1 miles,Green,petrol,null
+Ford,A4,2003 model,,168015KM,silver,DIESEL,5
+TOYOTA,3series,2001,"$39,797",40342.0,Blue,Gas,three
+Chevrolet,A4,23,73k,#N/A,Gray,Electric,5th
+Audi,f150,2018 model,36132,,NULL,Diesel,5 owners
+f150,NA,2018 model,NA,58885 km,gray,petrol,2 owners
+chevy,3series,1999.0,N/A,,SILVER,EV,1 owner
+Volkswagen,Accord,  1994 model  ,  79k  ,unknown,RED,Petrol,n/a
+  HONDA  ,Elantra,,66k,338053.0,white,Petrol,1
+toyota,Mustang,2013.0,56986.0,333576 km,silver,petrol,
+VW,Elantra,11,  23368.00  ,53696 km,White,gasoline,5.0
+B.M.W,mustang,-,29504,68271.0,RED,n/a,1st
+Audi,3 Series,nineteen ninety five,$23044,262476,unknown,diesel,
+bmw,Silverado,2004,#N/A,"59,163",Silver,Gasoline,4.0
+chevy,F 150,'90,90363.0,257765 km,,NA,4
+Nissan,3 Series,2020.0,"$89,382",,SILVER,plug-in hybrid,N/A
+null,mustang,,66258.0,264657,Black,N/A,3rd
+volkswagen,silverado,'20,64k,294783.0,,Unknown,
+toyota,civic,null,32k,339782 km,black,PETROL,1 owner
+Chevrolet,F 150,,49622.0,142065.9 miles,White,plug-in hybrid,1 owner
+HONDA,Elantra,twenty twenty,negotiable,"104,897",Grey,Hybrid,3
+HONDA,Elantra,2016.0,43k,n/a,?,Diesel,4 owners
+VW,Camry,'93,N/A,164576 km,unknown,Electric,1.0
+B.M.W,Elantra,'03,,  56001KM  ,BLUE,Diesel,3rd
+toyota,civic,two thousand,negotiable,  unknown  ,black,EV,1
+VW,Elantra,2011,N/A,$31224,BLUE,DIESEL,
+ford,Sentra,16,43864 USD,,gray,gasoline,
+Nissan,Sentra,17,80694 USD,136397 km,blue,PETROL,3
+nissan,F 150,N/A,21129.00,,black,DIESEL,
+  N/A  ,Sentra,'92,N/A,"132,989",Green,Hybrid,
+Honda,Sentra,2006 model,N/A,N/A,n/a,Gas,
+  ford  ,F-150,2012 model,14265.0,106815KM,black,Gas,NULL
+TOYOTA,Golf,2020,61513 USD,329439.0,Black,Petrol,  3 owners  
+bmw,F 150,2014.0,negotiable,unknown,?,gasoline,  N/A  
+Chevrolet,Golf,2004,86k,81301.0,gray,Unknown,5.0
+Audi,Corolla,,"$4,132",unknown,,HYBRID,2
+  Camry  ,volkswagen,'90,,61173.0,Red,Gas,4 owners
+volkswagen,Civic,1995,NULL,$61595,blue,plug-in hybrid,four
+Audi,Sentra,two thousand and five,32396.0,31826 km,Green,Petrol,n/a
+HONDA,3series,two thousand,90k,342098 km,silver,plug-in hybrid,N/A
+Ford,Sentra,2004.0,N/A,294640,white,plug-in hybrid,  3rd  
+F 150,Ford,,28920.0,189602.0,BLUE,Electric,N/A
+B.M.W,f150,'23,negotiable,#N/A,blue,hybrid,4
+HONDA,Elantra,2015,91k,"290,251",black,electric,N/A
+bmw,Corolla,2022,  74323  ,163710KM,Green,electric,two
+volkswagen,Sentra,two thousand,$47919,,black,gasoline,N/A
+nissan,Golf,  '21  ,negotiable,N/A,blue,Unknown,N/A
+ford,f150,NULL,negotiable,159993,black,Diesel,2
+AUDI,Elantra,n/a,negotiable,207301KM,Silver,,N/A
+Toyota,null,two thousand and five,-,303852,Gray,PETROL,  5.0  
+  toyota  ,mustang,2014.0,,  167793 km  ,blue,hybrid,NULL
+volkswagen,f150,09,"$76,481",,Gray,NULL,
+chevy,Civic,2022,38k,23847 km,BLUE,,5.0
+AUDI,Accord,'91,92681,70110,,Petrol,N/A
+Toyota,F-150,2019 model,50559,101182KM,Gray,Petrol,N/A
+  VW  ,F 150,two thousand,$88486,"296,593",,-,1 owner
+nissan,Mustang,nineteen ninety five,91151.00,271735,Gray,  plug-in hybrid  ,3 owners
+Toyota,Altima,2011.0,34821,,Blue,plug-in hybrid,
+HONDA,Sentra,  2017  ,10k,unknown,null,  petrol  ,5.0
+Audi,Civic,n/a,85540 USD,266809.0,Black,EV,four
+volkswagen,camry,2017.0,47064.00,102449.0,White,Diesel,N/A
+Chevrolet,3series,2003,N/A,96597,,EV,
+Ford,Camry,1998.0,negotiable,213387.2 miles,Blue,electric,N/A
+Audi,Civic,2024 model,40k,"77,891",Silver,diesel,1st
+VW,Mustang,  15  ,85637.00,306175.0,?,petrol,2nd
+VW,Accord,2007.0,n/a,,,HYBRID,2
+ford,silverado,'06,3118 USD,157010,black,EV,4.0
+  Hyundai  ,Golf,1991 model,51112,72849.0,N/A,gasoline,3rd
+3series,Nissan,'03,$53201,,green,Hybrid,
+chevy,Silverado,1990,"$24,521",unknown,Grey,Hybrid,2.0
+AUDI,civic,nineteen ninety five,$45108,298439KM,gray,HYBRID,N/A
+BMW,Mustang,'24,40258.0,349520 km,  RED  ,Diesel,4 owners
+Chevrolet,Golf,2021 model,,  $40815  ,RED,,2.0
+toyota,Silverado,1996,53199,,Gray,petrol,5th
+Chevrolet,Accord,2002,83877.00,67489.1 miles,green,n/a,4
+BMW,Mustang,NULL,"$80,625",,?,Hybrid,2nd
+HONDA,Civic,1999 model,51250 USD,null,?,petrol,#N/A
+BMW,Golf,1990 model,"$10,469",160200.1 miles,NULL,Diesel,one
+Nissan,3series,2000 model,,"231,408",Grey,Unknown,5th
+bmw,f150,'02,,unknown,,EV,N/A
+toyota,3series,2017 model,34347,"127,062",gray,petrol,3 owners
+HONDA,Silverado,,$88309,$14154,N/A,Electric,N/A
+ford,Civic,,25853.00,"263,514",Blue,HYBRID,five
+Ford,Camry,93,36875.0,3788,,petrol,1.0
+  Camry  ,Ford,2019,93528.0,210663KM,blue,Petrol,#N/A
+nissan,A4,,52444.0,154068,unknown,Diesel,  two  
+Chevrolet,3series,2007 model,"$30,885",135071.0,#N/A,plug-in hybrid,1
+Audi,Civic,nineteen ninety five,77k,192800,blue,electric,
+Hyundai,f150,nineteen ninety five,21k,348835.0,red,electric,N/A
+BMW,Camry,,,unknown,,plug-in hybrid,3
+VW,mustang,1999 model,29494 USD,114366 km,White,  #N/A  ,N/A
+VW,mustang,,NULL,196802KM,,PETROL,N/A
+HONDA,Altima,'98,-,unknown,RED,,
+ford,Altima,,87542,84520 km,n/a,-,3
+Ford,camry,05,n/a,61282.8 miles,blue,Electric,
+chevy,Altima,,,unknown,Grey,gasoline,3
+Ford,F-150,#N/A,  71006 USD  ,160720KM,N/A,plug-in hybrid,
+Nissan,Altima,'07,negotiable,"335,121",silver,diesel,5.0
+toyota,Corolla,2008 model,"$74,634",258395.0,Red,hybrid,5.0
+AUDI,Golf,2000.0,"$90,410",,white,Gas,1
+Volkswagen,camry,twenty ten,N/A,null,red,EV,1 owner
+Honda,F-150,2018 model,,230349,BLUE,gasoline,NA
+Nissan,#N/A,14,N/A,NULL,Blue,Petrol,2nd
+Ford,Silverado,2001,NA,unknown,null,gasoline,2
+B.M.W,Accord,93,25k,21437.0,Red,petrol,-
+TOYOTA,F-150,1998 model,84517.00,196105.7 miles,Blue,petrol,N/A
+Ford,Elantra,94,NA,219678KM,Green,Unknown,N/A
+Toyota,Silverado,2019.0,68k,275289 km,Black,Electric,two
+volkswagen,Mustang,1998 model,,,black,electric,one
+Nissan,f150,2018,negotiable,"227,490",silver,N/A,4.0
+Toyota,Sentra,,51528,"201,321",,Gasoline,one
+B.M.W,camry,2024,92707,140224 km,null,,
+B.M.W,F-150,2008.0,$48833,39997,unknown,electric,
+ford,f150,2010,21369 USD,unknown,Gray,plug-in hybrid,N/A
+B.M.W,-,95,N/A,221166,Green,diesel,one
+Ford,f150,#N/A,5453 USD,222669 km,null,petrol,1.0
+toyota,Sentra,2001 model,negotiable,84068KM,Red,Hybrid,
+Chevrolet,3series,2014.0,$23603,  28663 km  ,silver,hybrid,  n/a  
+TOYOTA,mustang,1990.0,,,SILVER,Unknown,two
+B.M.W,Civic,'99,"$23,108",,Green,Unknown,3 owners
+TOYOTA,  A4  ,1996,61k,,BLUE,Electric,2 owners
+chevy,NA,'10,50k,43773,,hybrid,
+Ford,Corolla,2001.0,$16201,,N/A,Diesel,4 owners
+bmw,Camry,17,$37369,132157KM,?,Gas,null
+3series,Audi,two thousand,N/A,,White,PETROL,5
+nissan,n/a,00,80766 USD,197948,White,EV,2 owners
+null,mustang,,$85113,148503 km,unknown,Gasoline,N/A
+Hyundai,Elantra,2015.0,null,,white,Unknown,3rd
+toyota,Altima,  2017.0  ,  18891.0  ,"333,590",SILVER,Gas,4.0
+TOYOTA,Altima,14,5314.00,68444KM,Gray,EV,two
+VW,3 Series,2003,negotiable,52780 km,  gray  ,N/A,four
+N/A,Civic,91,N/A,12078 km,Green,Unknown,two
+Honda,  3series  ,1996 model,negotiable,unknown,black,Gas,2.0
+chevy,3series,1991.0,17027.00,94321 km,#N/A,hybrid,two
+n/a,Altima,16,91408,228173.0,Silver,electric,  2.0  
+Toyota,  Corolla  ,,  N/A  ,  unknown  ,black,DIESEL,3
+,civic,2000 model,13536,100222KM,silver,,1st
+Hyundai,F-150,2023.0,N/A,126103.0,N/A,plug-in hybrid,four
+Volkswagen,Silverado,2010,"$42,871",147941.6 miles,null,  gasoline  ,5 owners
+Hyundai,3 Series,06,"$17,509",null,RED,EV,
+  toyota  ,camry,07,33295 USD,unknown,green,Gasoline,3.0
+TOYOTA,F 150,'01,N/A,#N/A,blue,Petrol,four
+HONDA,Accord,2018.0,N/A,183910.0,green,  DIESEL  ,4
+nissan,3 Series,2003 model,13701.0,101629.0,SILVER,Gasoline,
+Toyota,A4,two thousand,63k,$37955,Green,Electric,#N/A
+ford,Civic,'17,N/A,26301.4 miles,black,diesel,1st
+Hyundai,silverado,'01,N/A,,null,gasoline,5.0
+ford,3series,1990,62k,271585 km,Gray,petrol,1 owner
+Toyota,A4,2002,17035.0,,Red,gasoline,  five  
+ford,  civic  ,2000.0,69k,286618 km,White,plug-in hybrid,NULL
+Hyundai,Mustang,1990.0,22750.0,unknown,Green,Unknown,
+Volkswagen,Silverado,twenty ten,$18963,169909,N/A,EV,5
+Ford,camry,  1994.0  ,$59872,196252.0,  unknown  ,Petrol,  2.0  
+nissan,Altima,24,11432.00,  null  ,BLUE,Unknown,
+Honda,3series,two thousand,10906.0,82765KM,black,PETROL,null
+,Altima,'92,"$47,330",37100KM,Grey,  PETROL  ,N/A
+  Nissan  ,3series,NA,$58324,null,green,  gasoline  ,1 owner
+B.M.W,mustang,1998,81k,129627.7 miles,gray,Gasoline,1.0
+TOYOTA,Civic,1998,  N/A  ,"120,867",black,n/a,2
+nissan,silverado,1993,88560 USD,,red,,3rd
+volkswagen,Golf,'17,negotiable,  185179.6 miles  ,Green,DIESEL,two
+BMW,Golf,2019.0,negotiable,143343.1 miles,N/A,HYBRID,1.0
+Hyundai,Altima,2010.0,NULL,,NA,petrol,
+NA,3 Series,2020,40k,"326,063",Red,Gas,
+Volkswagen,Altima,'16,72643.0,63565.0,Green,petrol,5 owners
+AUDI,civic,18,null,"120,462",N/A,gasoline,
+  toyota  ,Elantra,,92445.0,unknown,RED,gasoline,5.0
+HONDA,A4,1998,26045 USD,,Green,PETROL,N/A
+ford,camry,2003.0,58k,"272,176",  Black  ,electric,1
+bmw,Camry,'21,negotiable,"193,745",White,Electric,5th
+Hyundai,Silverado,1994 model,,,red,hybrid,one
+Volkswagen,Civic,90,"$58,927",35264,gray,,5.0
+HONDA,Elantra,18,negotiable,,,hybrid,N/A
+Chevrolet,  NULL  ,2015.0,negotiable,138549.4 miles,SILVER,DIESEL,1 owner
+volkswagen,Corolla,  93  ,69980.0,  unknown  ,silver,,
+B.M.W,camry,,18k,-,  ?  ,Hybrid,2
+Honda,  Altima  ,'20,51359.0,152692KM,Grey,PETROL,2.0
+TOYOTA,  F-150  ,00,,256802.0,N/A,diesel,
+Chevrolet,-,2010,,  253229 km  ,Green,null,1.0
+Honda,Silverado,  2010.0  ,82622.0,121095.1 miles,N/A,Gas,2nd
+bmw,Civic,twenty ten,72481 USD,"240,435",Silver,Gasoline,1
+Honda,F 150,2006 model,,,blue,Unknown,
+Chevrolet,Corolla,1993.0,19k,268280 km,Gray,hybrid,four
+volkswagen,Elantra,2012 model,,8242.4 miles,  silver  ,NULL,
+Honda,A4,,7756,132664.0,Black,,
+Hyundai,camry,2010 model,14776,,Black,Diesel,  null  
+AUDI,Civic,2022.0,55641.0,,?,Petrol,3
+B.M.W,mustang,02,19k,"162,784",  red  ,Hybrid,
+Nissan,f150,24,N/A,110447KM,Grey,EV,3
+  NULL  ,Accord,11,negotiable,"52,537",BLUE,EV,3rd
+  Audi  ,3series,1991 model,23499.0,166899.9 miles,BLUE,Electric,
+TOYOTA,civic,99,N/A,291162 km,silver,Petrol,4.0
+chevy,A4,1991.0,  N/A  ,319040,n/a,diesel,
+Volkswagen,F-150,,null,"181,554",null,Gasoline,4 owners
+nissan,silverado,2014 model,90436 USD,41947KM,  NULL  ,Petrol,#N/A
+AUDI,F-150,2012,6798.0,278537 km,SILVER,diesel,two
+Nissan,Silverado,1995,"$46,272",333835KM,black,hybrid,N/A
+Honda,Silverado,1992,,129905.5 miles,BLUE,Electric,3
+VW,silverado,90,negotiable,178570.0,Silver,EV,four
+AUDI,3 Series,17,,"12,272",black,,4.0
+chevy,F-150,,,280822.0,green,Hybrid,2nd
+AUDI,civic,twenty ten,81915,,Green,PETROL,
+bmw,Accord,  '98  ,  negotiable  ,21118.7 miles,Red,Diesel,N/A
+TOYOTA,Elantra,'06,null,63429,unknown,,1 owner
+B.M.W,A4,2003 model,negotiable,31647.6 miles,Silver,PETROL,4th
+Hyundai,mustang,1999.0,93105.00,67398,blue,Electric,4th
+A4,Volkswagen,01,65k,123780.0 miles,  Red  ,PETROL,three
+Volkswagen,Corolla,'07,74520 USD,174248.0 miles,green,PETROL,n/a
+Audi,A4,19,negotiable,281507 km,  red  ,electric,1.0
+VW,F 150,2011.0,68491.0,157474.8 miles,Green,Electric,3 owners
+BMW,Civic,1996.0,32382.0,111786.0,black,Unknown,3
+3 Series,HONDA,1999.0,,unknown,silver,electric,4th
+volkswagen,Civic,2003,82944.00,"263,687",Gray,DIESEL,1 owner
+VW,f150,1994.0,44538 USD,134827.8 miles,blue,gasoline,
+B.M.W,Golf,nineteen ninety five,-,-,,DIESEL,N/A
+volkswagen,F-150,2024 model,22738.00,269222 km,RED,HYBRID,5th
+  Toyota  ,civic,2010 model,N/A,78902.0,Black,diesel,N/A
+B.M.W,Civic,02,N/A,NA,Grey,DIESEL,two
+VW,Sentra,,null,,White,Diesel,1.0
+VW,Camry,07,NA,169487,red,gasoline,two
+NULL,N/A,2009.0,null,327843,silver,DIESEL,5 owners
+Toyota,mustang,2020.0,63536 USD,134669 km,blue,electric,5.0
+Silverado,Audi,NA,"$77,650",,blue,electric,N/A
+Honda,silverado,2018.0,"$17,442",146436KM,?,Unknown,#N/A
+Hyundai,Elantra,95,68155.00,95741,SILVER,Unknown,two
+ford,silverado,'17,n/a,unknown,red,Hybrid,3.0
+BMW,Elantra,15,79k,"101,382",white,EV,
+ford,Corolla,2011 model,negotiable,unknown,SILVER,DIESEL,
+Honda,Mustang,2006.0,$85920,  266245  ,Silver,hybrid,3
+Ford,  Altima  ,1996 model,17397,,silver,hybrid,N/A
+Honda,3 Series,2012.0,negotiable,130390KM,Black,HYBRID,1st
+Nissan,Accord,,negotiable,,SILVER,Diesel,3 owners
+  AUDI  ,3series,06,,178343 km,NA,EV,-
+ford,Camry,'08,33939.0,6768.8 miles,unknown,plug-in hybrid,4.0
+B.M.W,silverado,  1998  ,14664 USD,165351.8 miles,gray,,N/A
+ford,Corolla,2012 model,10573 USD,144750.0,  N/A  ,DIESEL,1.0
+chevy,Altima,1997 model,"$11,307",NULL,RED,Unknown,four
+Mustang,nissan,21,N/A,-,#N/A,Hybrid,-
+volkswagen,Civic,,negotiable,"81,092",unknown,EV,
+AUDI,Accord,2019 model,88309.0,287299 km,,HYBRID,1 owner
+Audi,silverado,2023.0,"$53,666",286461.0,,Diesel,3rd
+Audi,Altima,null,24722,336033KM,Silver,petrol,  5.0  
+Nissan,Civic,'97,40068.00,,  white  ,electric,2nd
+bmw,A4,2006 model,negotiable,"5,468",-,Hybrid,N/A
+null,Corolla,'21,$28317,66644 km,Green,petrol,four
+Honda,F 150,'12,"$62,559",105198KM,  ?  ,NA,
+Chevrolet,3 Series,'92,20807,-,NULL,diesel,1st
+ford,Golf,'24,null,"117,356",blue,Electric,2 owners
+Nissan,f150,23,28989 USD,,White,Diesel,5.0
+Volkswagen,Elantra,2001 model,"$60,062",12496KM,  White  ,Hybrid,N/A
+Toyota,Camry,1993 model,"$45,451",29308.9 miles,Silver,EV,2 owners
+civic,Honda,97,,76884.0,Gray,Gasoline,1.0
+  Nissan  ,f150,1997 model,$89674,,?,electric,
+nissan,Accord,nineteen ninety five,"$37,761",344296,Gray,PETROL,N/A
+TOYOTA,Golf,,"$89,323",167045 km,Green,,one
+Ford,Sentra,,$9361,72726,White,PETROL,2.0
+bmw,Mustang,99,"$73,040",,White,Gasoline,1st
+chevy,  camry  ,two thousand and five,12479 USD,233796 km,Red,PETROL,
+  Nissan  ,Golf,2019,N/A,,blue,Hybrid,NULL
+VW,Elantra,2017,$22948,,,n/a,N/A
+ford,3 Series,20,10273.00,,Gray,EV,N/A
+B.M.W,A4,,"$4,542",,null,Gasoline,4
+silverado,  VW  ,two thousand,37750.00,167790 km,gray,electric,5 owners
+Nissan,silverado,'00,79k,,Silver,Gasoline,  N/A  
+HONDA,Accord,1992,"$69,070","29,286",blue,plug-in hybrid,1
+  NA  ,civic,2005,9407.00,338039.0,,,  1  
+B.M.W,n/a,,"$2,937",unknown,RED,EV,five
+  bmw  ,  F 150  ,,7460 USD,203136KM,Blue,Diesel,2nd
+Chevrolet,,two thousand and five,80880.00,86642 km,gray,plug-in hybrid,
+  nissan  ,Camry,NULL,6586.00,62954 km,black,gasoline,  N/A  
+nissan,Golf,n/a,24k,6956KM,N/A,petrol,N/A
+chevy,Golf,two thousand,N/A,,silver,EV,5.0
+BMW,camry,2011 model,"$68,368","327,712",blue,electric,5th
+chevy,silverado,2015.0,,344400 km,-,diesel,five
+Toyota,Camry,n/a,negotiable,108573 km,BLUE,PETROL,1.0
+Ford,Elantra,'12,$91764,257062.0,  Red  ,Hybrid,1 owner
+Toyota,Silverado,,11057 USD,unknown,BLUE,  HYBRID  ,3rd
+BMW,  3series  ,,negotiable,59524.5 miles,white,electric,N/A
+Honda,Elantra,'17,,21236.8 miles,RED,DIESEL,three
+Toyota,3 Series,twenty twenty,68872,6378KM,Blue,Unknown,3rd
+TOYOTA,#N/A,,#N/A,unknown,Grey,EV,2
+TOYOTA,Elantra,,56698,,green,PETROL,2 owners
+Audi,f150,twenty twenty,$46181,47703KM,gray,electric,N/A
+ford,mustang,02,negotiable,"189,523",green,,3
+Nissan,silverado,  null  ,2428.0,34889KM,White,DIESEL,
+Ford,Elantra,2003,N/A,346185KM,N/A,petrol,1 owner
+Honda,A4,n/a,14541 USD,"129,076",  Grey  ,diesel,two
+VW,Elantra,twenty ten,negotiable,104948.4 miles,Red,plug-in hybrid,5 owners
+Toyota,  3series  ,2012 model,  negotiable  ,unknown,Red,plug-in hybrid,4
+volkswagen,camry,2006.0,"$12,388",,Black,  HYBRID  ,2 owners
+AUDI,Corolla,,negotiable,,BLUE,,N/A
+AUDI,null,2007 model,62608.00,"128,864",Gray,Gas,N/A
+nissan,F 150,two thousand and five,NULL,66186 km,null,Diesel,
+Honda,A4,  15  ,,NULL,silver,Diesel,four
+HONDA,null,2000,3449,33008.7 miles,blue,,N/A
+ford,3series,  n/a  ,N/A,230614 km,?,DIESEL,
+TOYOTA,civic,,N/A,,Blue,PETROL,4th
+Toyota,Elantra,2020 model,,172047,Green,Electric,
+B.M.W,#N/A,'20,,"34,771",Silver,petrol,4.0
+TOYOTA,  n/a  ,,"$21,666",283309,Grey,plug-in hybrid,1
+BMW,3series,,16095.0,140158 km,N/A,Electric,5th
+Nissan,Elantra,'05,"$42,543","349,309",Silver,Diesel,2
+bmw,A4,1992,49737,82067,SILVER,  Diesel  ,3rd
+Elantra,Honda,95,65818.0,175403.0,blue,petrol,2 owners
+,Altima,twenty ten,  59008  ,20670KM,Gray,,3 owners
+Honda,Camry,'23,32044,unknown,white,HYBRID,2
+B.M.W,3series,N/A,,285770 km,?,Diesel,1 owner
+TOYOTA,f150,1997,  negotiable  ,,RED,DIESEL,2
+TOYOTA,Corolla,00,negotiable,,BLUE,Unknown,5
+Hyundai,3series,'10,86217.00,193394,White,petrol,
+Chevrolet,n/a,,,166234KM,white,Electric,  5  
+HONDA,Accord,2001,$14199,72050KM,Green,Gasoline,3rd
+Nissan,camry,NULL,#N/A,"48,741",,electric,3
+ford,F 150,two thousand,negotiable,132916.1 miles,  Red  ,Unknown,3
+  Honda  ,f150,2001 model,85993,189057.8 miles,Blue,diesel,two
+nissan,3series,23,,,Gray,Diesel,two
+HONDA,Mustang,twenty ten,N/A,7218KM,gray,Unknown,N/A
+Honda,  F-150  ,2007,88283 USD,270784 km,black,Hybrid,  one  
+bmw,F 150,96,,,Black,DIESEL,5
+bmw,Golf,,"$72,120",23657.6 miles,Blue,,N/A
+B.M.W,  camry  ,,negotiable,90285.9 miles,  green  ,Gas,1st
+BMW,civic,NA,  negotiable  ,102684,White,Diesel,N/A
+BMW,Civic,1994 model,"$22,150",217607KM,Blue,hybrid,N/A
+Honda,Sentra,,4625.0,102901.0,SILVER,Electric,4
+toyota,Silverado,2024.0,NULL,126612 km,green,,1 owner
+Honda,Accord,  1991  ,N/A,"6,044",Red,Petrol,1st
+HONDA,  mustang  ,  2006 model  ,22876 USD,44585.0,green,gasoline,5 owners
+Volkswagen,Mustang,'23,"$21,655",212432KM,SILVER,  Gasoline  ,
+AUDI,Silverado,2001,,33824KM,red,DIESEL,1st
+B.M.W,f150,twenty twenty,20k,unknown,unknown,Electric,2 owners
+  HONDA  ,,two thousand,54k,74644.5 miles,,EV,3rd
+Honda,Accord,1998.0,63037,319865KM,red,electric,one
+toyota,Sentra,02,"$33,600",unknown,RED,Diesel,N/A
+Toyota,F 150,,,15413 km,  N/A  ,Gasoline,
+bmw,3series,2013.0,81920 USD,181294 km,blue,petrol,1st
+  Hyundai  ,Mustang,#N/A,46k,"219,293",  RED  ,  PETROL  ,
+bmw,camry,2023,28631,unknown,SILVER,Hybrid,five
+bmw,Silverado,nineteen ninety five,40063.0,  21150.0  ,Blue,diesel,NA
+Audi,Corolla,2008.0,39455 USD,"300,987",BLUE,Petrol,4.0
+volkswagen,3 Series,nineteen ninety five,85k,298194,white,gasoline,3rd
+volkswagen,A4,1999,  negotiable  ,"335,669",Blue,  HYBRID  ,N/A
+nissan,  F-150  ,1999,93113.0,"296,887",unknown,hybrid,3.0
+Volkswagen,Accord,,17753.00,132084KM,White,-,4th
+AUDI,Accord,two thousand and five,$8280,34719KM,SILVER,Unknown,N/A
+Nissan,  F 150  ,two thousand,N/A,73259,SILVER,N/A,
+Hyundai,civic,N/A,,N/A,,Gas,2.0
+Hyundai,Corolla,,40892 USD,,Black,petrol,2
+Volkswagen,F 150,,11853 USD,"7,347",BLUE,PETROL,4
+volkswagen,Accord,  '16  ,5821 USD,unknown,white,HYBRID,1.0
+Chevrolet,F 150,twenty ten,$53558,345796KM,silver,Petrol,3.0
+Toyota,F 150,'98,6952 USD,173477KM,red,diesel,
+BMW,civic,two thousand,54645,234660.0,SILVER,plug-in hybrid,2 owners
+toyota,silverado,2010 model,91333.00,,Red,Hybrid,2
+BMW,Silverado,2015.0,62383 USD,311214KM,SILVER,Diesel,two
+  volkswagen  ,Accord,20,,111879.4 miles,SILVER,Gas,  5th  
+Chevrolet,A4,2008 model,36302 USD,117548 km,Red,Diesel,N/A
+Chevrolet,Civic,'96,n/a,90969 km,silver,Diesel,four
+volkswagen,camry,98,64654.0,,Black,#N/A,2.0
+Honda,silverado,2011.0,"$79,112","221,230",silver,electric,5 owners
+Ford,Accord,'10,11075,67888.1 miles,Red,electric,N/A
+HONDA,Elantra,1999.0,2k,42274.1 miles,silver,Unknown,NA
+VW,F 150,03,  negotiable  ,unknown,silver,Petrol,
+Hyundai,3series,2005 model,negotiable,205780 km,red,,N/A
+BMW,F-150,17,44854.0,"344,586",N/A,PETROL,three
+Toyota,Altima,2011 model,N/A,"133,114",N/A,plug-in hybrid,5.0
+Volkswagen,civic,,N/A,unknown,,Gasoline,N/A
+chevy,Silverado,2012,26203,77159.1 miles,  ?  ,,4
+Audi,F 150,null,89k,7829.7 miles,RED,Electric,2
+,  camry  ,'97,$81408,"46,785",Blue,Gasoline,four
+Silverado,HONDA,1996.0,21612,unknown,BLUE,Gasoline,N/A
+Civic,Toyota,  12  ,negotiable,305900 km,gray,Petrol,one
+B.M.W,NA,  2021 model  ,$38428,unknown,  BLUE  ,petrol,  4.0  
+chevy,3series,,75k,335459 km,Gray,EV,4 owners
+toyota,Civic,'91,56k,  290373 km  ,white,Gasoline,4.0
+B.M.W,  Accord  ,'95,  null  ,93753.9 miles,silver,Unknown,3rd
+Nissan,F 150,2018,,229362 km,SILVER,hybrid,
+Honda,camry,,  87865.0  ,137727 km,NA,diesel,5th
+Nissan,Sentra,'23,66595 USD,334957.0,white,PETROL,N/A
+Volkswagen,Altima,  2008  ,78k,NULL,Blue,HYBRID,1.0
+TOYOTA,civic,-,negotiable,"322,546",N/A,Unknown,
+Volkswagen,civic,18,68433,195978,Gray,Petrol,5 owners
+nissan,silverado,2022.0,21718,,SILVER,-,one
+Audi,3series,,40384 USD,unknown,red,hybrid,3.0
+null,f150,'90,67867.0,186993.8 miles,white,DIESEL,
+chevy,Sentra,'00,,213584,Blue,diesel,2 owners
+bmw,mustang,'07,negotiable,297386 km,-,Hybrid,1st
+AUDI,F 150,twenty twenty,84128 USD,122691.7 miles,Black,,N/A
+toyota,A4,2013,negotiable,200010 km,red,  EV  ,1.0
+Audi,mustang,1998,41k,unknown,N/A,DIESEL,  2.0  
+Hyundai,mustang,  10  ,30931.00,,Green,Petrol,null
+ford,,'01,"$61,234",,gray,plug-in hybrid,
+Toyota,F-150,two thousand,79176.00,270674 km,SILVER,plug-in hybrid,four
+VW,Accord,2004,  negotiable  ,,N/A,Hybrid,5th
+chevy,mustang,19,46373.00,"76,358",White,PETROL,N/A
+bmw,silverado,2024 model,51742,#N/A,RED,plug-in hybrid,3rd
+toyota,F-150,2022.0,11060.0,207795 km,Gray,  plug-in hybrid  ,-
+Chevrolet,civic,1997 model,21k,unknown,Gray,Unknown,5th
+TOYOTA,Sentra,24,51982.0,82319.5 miles,BLUE,DIESEL,
+-,Civic,  00  ,21097.00,"63,505",red,Gasoline,1
+  B.M.W  ,silverado,nineteen ninety five,negotiable,340722KM,white,  PETROL  ,5.0
+Honda,  Accord  ,'14,,unknown,Silver,Petrol,1.0
+Honda,Sentra,,7499.0,$35681,unknown,Petrol,3.0
+VW,Sentra,1994.0,negotiable,,  silver  ,hybrid,
+volkswagen,Camry,two thousand and five,$20245,38188.0,Gray,EV,3.0
+VW,Accord,2022 model,N/A,  39032KM  ,null,petrol,three
+Chevrolet,Elantra,2007.0,negotiable,"240,835",,Diesel,
+volkswagen,3 Series,1990 model,65107,34556 km,red,EV,5
+toyota,Golf,'94,58k,311242 km,Silver,Petrol,
+TOYOTA,#N/A,2022,20514.00,248583 km,White,n/a,5
+Honda,  silverado  ,two thousand,7k,225059KM,Gray,Diesel,
+chevy,Golf,11,48194 USD,"41,975",silver,Hybrid,N/A
+#N/A,f150,2011 model,"$40,657","233,405",,Hybrid,  N/A  
+nissan,camry,n/a,NULL,58192KM,Silver,Diesel,  2.0  
+Nissan,mustang,2003.0,N/A,"6,398",-,Gasoline,1
+Audi,,1999,,189449.0,SILVER,-,
+ford,Civic,2002,76747,N/A,black,EV,NA
+f150,Audi,2004,31009,-,  Silver  ,Gasoline,N/A
+Hyundai,NA,24,61132 USD,unknown,N/A,Gas,1 owner
+B.M.W,silverado,1990 model,25715 USD,"99,114",Grey,Gas,1
+VW,F 150,,N/A,181174.6 miles,Green,petrol,1.0
+BMW,A4,two thousand and five,2159.0,,BLUE,,N/A
+AUDI,  Civic  ,1990,90228.00,66339,?,  Petrol  ,2 owners
+bmw,Camry,'93,,  unknown  ,white,HYBRID,
+Volkswagen,Civic,1997,5823 USD,unknown,white,,3.0
+Nissan,  f150  ,1995,76k,268511KM,SILVER,EV,3rd
+Ford,Corolla,,N/A,,NULL,hybrid,2 owners
+AUDI,  Altima  ,,36559.00,"115,659",White,-,N/A
+VW,3series,1991 model,51002 USD,140024KM,silver,HYBRID,4.0
+,3series,94,N/A,109377KM,Black,gasoline,1 owner
+B.M.W,Camry,n/a,38k,"71,674",white,EV,5.0
+Toyota,Camry,24,"$86,622",63953 km,gray,Unknown,  3  
+VW,Civic,2000 model,"$86,948",8248.6 miles,Green,n/a,3.0
+Volkswagen,camry,1992,5k,"79,682",  gray  ,Gas,2 owners
+chevy,3 Series,1999 model,"$69,908",204873.0,BLUE,Petrol,5th
+VW,  civic  ,  NULL  ,N/A,,white,hybrid,4
+volkswagen,civic,two thousand and five,,46997.0,gray,hybrid,three
+Audi,null,01,25414 USD,,SILVER,petrol,
+volkswagen,  mustang  ,n/a,$87616,183023.0 miles,Silver,gasoline,1st
+  nissan  ,Mustang,'94,12k,296865,,  electric  ,
+AUDI,A4,1996,19819.00,215590.4 miles,RED,-,3rd
+Hyundai,Accord,2023.0,72092.00,  202558.7 miles  ,null,,N/A
+Toyota,3 Series,'21,51563,142757,black,HYBRID,3
+Chevrolet,camry,'91,55307.00,128064,silver,electric,
+chevy,F-150,'00,71k,52494.1 miles,Gray,hybrid,2
+  Honda  ,Corolla,09,82k,63602KM,SILVER,diesel,
+volkswagen,Silverado,,15075 USD,130640.0,BLUE,  Gasoline  ,  one  
+#N/A,Mustang,17,41896 USD,  200016  ,RED,gasoline,5th
+Audi,Sentra,03,11k,,silver,,3.0
+nissan,Civic,#N/A,4453.0,unknown,white,HYBRID,5th
+HONDA,Civic,2010,"  $9,660  ","  81,351  ",white,,3rd
+Ford,Civic,2003.0,,120440.0,Red,null,2.0
+BMW,civic,2006.0,"$65,915",89457,white,Petrol,NULL
+volkswagen,Golf,,64k,unknown,?,plug-in hybrid,3
+toyota,Altima,two thousand,N/A,206675.0,,Electric,three
+TOYOTA,Golf,93,N/A,152750 km,red,diesel,
+HONDA,f150,1999 model,-,unknown,  BLUE  ,Hybrid,3rd
+Toyota,3 Series,,negotiable,183165.0,RED,electric,2 owners
+Nissan,3 Series,2024 model,N/A,"74,323",unknown,#N/A,one
+BMW,camry,nineteen ninety five,51411.0,,-,DIESEL,5
+  Volkswagen  ,F-150,twenty ten,,80558KM,Grey,,4
+Volkswagen,  A4  ,2005.0,,  273039KM  ,Silver,Hybrid,4th
+Ford,mustang,,68988 USD,297980.0,  Blue  ,PETROL,four
+Toyota,,90,47591.0,unknown,BLUE,,three
+toyota,camry,,,173996.3 miles,Grey,Gas,4th
+volkswagen,3series,two thousand and five,$54120,238485,Blue,diesel,4
+Toyota,3series,,N/A,"202,187",Blue,petrol,4
+B.M.W,silverado,2009 model,"$47,867",unknown,gray,Gas,1.0
+Toyota,Golf,2009.0,negotiable,"303,736",unknown,Petrol,
+TOYOTA,Silverado,'02,81726.00,264276KM,black,Gasoline,4th
+F-150,BMW,'92,,  208913KM  ,blue,HYBRID,
+volkswagen,silverado,two thousand and five,,  NA  ,#N/A,DIESEL,1
+volkswagen,Mustang,'02,  59445 USD  ,283829,,Electric,
+Honda,f150,twenty ten,N/A,"  253,728  ",Black,electric,4 owners
+HONDA,Golf,1991.0,35897.0,261569KM,black,plug-in hybrid,N/A
+Toyota,civic,2015 model,negotiable,214541.3 miles,BLUE,PETROL,1st
+Chevrolet,,nineteen ninety five,negotiable,263379 km,Silver,plug-in hybrid,3
+Hyundai,F-150,2012.0,78k,  97845.2 miles  ,N/A,HYBRID,2
+volkswagen,Corolla,2012,24k,unknown,green,plug-in hybrid,two
+Nissan,A4,,,  232098 km  ,  SILVER  ,  Gas  ,5 owners
+Chevrolet,A4,04,$77686,8892 km,green,diesel,
+chevy,A4,nineteen ninety five,85245 USD,299376,  silver  ,Unknown,two
+HONDA,Mustang,,-,unknown,White,hybrid,
+Sentra,Toyota,2000.0,#N/A,unknown,Gray,NULL,3.0
+B.M.W,silverado,1998.0,$77170,154552.5 miles,black,gasoline,N/A
+bmw,3series,,,143330.0 miles,RED,Diesel,three
+B.M.W,Altima,  N/A  ,,97484KM,silver,EV,N/A
+Honda,  Mustang  ,twenty ten,N/A,134317.0 miles,RED,petrol,-
+Honda,Mustang,2019.0,17212.00,277279,N/A,diesel,
+Chevrolet,3 Series,97,negotiable,124324 km,Silver,,4.0
+TOYOTA,Silverado,n/a,28941.00,178686.8 miles,gray,HYBRID,3.0
+toyota,Mustang,1994,NULL,89331.0,white,PETROL,5.0
+f150,ford,07,,244116KM,Red,,4th
+toyota,Civic,09,52144,275691.0,Grey,  #N/A  ,4
+AUDI,Accord,1991.0,9855 USD,50216,gray,diesel,2
+Honda,Accord,07,55413.0,58654 km,gray,Gasoline,5.0
+TOYOTA,f150,91,,142395,black,HYBRID,four
+chevy,F-150,2014 model,$6856,,Blue,Gasoline,
+bmw,Golf,2014.0,negotiable,5070KM,Green,Unknown,3
+bmw,3series,1998.0,27871.0,unknown,white,DIESEL,5 owners
+Chevrolet,Camry,  twenty twenty  ,,644.5 miles,-,Petrol,1st
+ford,,1998 model,91851.0,259245.0,White,HYBRID,N/A
+Volkswagen,Mustang,'04,$34642,  227835 km  ,Blue,Gasoline,
+B.M.W,Mustang,twenty twenty,55885 USD,$23255,,electric,4 owners
+AUDI,  mustang  ,1990.0,21567.0,205039 km,blue,petrol,5.0
+Chevrolet,F-150,1997.0,NULL,219505,RED,Gas,3 owners
+Audi,Elantra,two thousand and five,47986,46961.0,blue,Petrol,N/A
+Toyota,F-150,1995 model,45633.00,124045KM,  Red  ,EV,4.0
+Nissan,3 Series,'15,,68168.0,Black,PETROL,
+ford,f150,2005.0,,unknown,White,Electric,
+Ford,F-150,21,  negotiable  ,178141.1 miles,green,PETROL,5
+Ford,F-150,null,-,47766 km,BLUE,EV,3rd
+Audi,Sentra,93,12k,46905.0,Black,petrol,1st
+toyota,,,14913.0,,?,Electric,4th
+Hyundai,Sentra,'93,31713,245339 km,Blue,hybrid,1st
+Toyota,N/A,,  N/A  ,7824.0,,,3rd
+Nissan,silverado,'12,negotiable,,SILVER,  plug-in hybrid  ,1
+bmw,Civic,2013.0,8084.00,340146 km,,,
+TOYOTA,3series,2020 model,49805.00,179231.8 miles,,Electric,N/A
+Chevrolet,A4,nineteen ninety five,negotiable,  176664.0  ,#N/A,Gasoline,2 owners
+chevy,Mustang,2017,negotiable,245662 km,blue,petrol,3
+HONDA,Corolla,2009,"$67,962","170,035",Gray,Gas,4 owners
+bmw,Accord,2003.0,73891 USD,,gray,  hybrid  ,two
+Volkswagen,Sentra,1999.0,64162 USD,104865.0,  N/A  ,NULL,1.0
+ford,F 150,20,29532,"210,995",blue,HYBRID,two
+N/A,  Altima  ,nineteen ninety five,6244.00,"196,501",  n/a  ,Gasoline,four
+Nissan,Civic,2018.0,  7156 USD  ,111580.5 miles,,Petrol,one
+Chevrolet,  Mustang  ,1993,22483 USD,113978.9 miles,unknown,,N/A
+nissan,Golf,two thousand and five,N/A,107896.8 miles,-,HYBRID,
+Audi,F 150,NA,23745.00,97607,RED,EV,3 owners
+B.M.W,  Accord  ,twenty twenty,45065.0,17506KM,white,Hybrid,N/A
+Honda,Mustang,,23193 USD,unknown,red,HYBRID,3 owners
+Audi,Civic,'18,negotiable,326177 km,Blue,gasoline,N/A
+B.M.W,Camry,NA,"$76,852",310950KM,BLUE,,3
+Mustang,  ford  ,19,$81359,41333.1 miles,silver,DIESEL,N/A
+Audi,Altima,2017.0,negotiable,49951KM,  silver  ,petrol,2.0
+ford,Altima,2000,,unknown,White,electric,three
+null,F 150,two thousand,34202 USD,143406,RED,  Electric  ,5th
+  TOYOTA  ,camry,twenty twenty,"$77,356","115,136",,EV,-
+nissan,f150,2015,38881 USD,,Green,EV,one
+HONDA,f150,2002,14994.00,203994.0,silver,DIESEL,three
+Ford,Silverado,2018.0,"$4,591",  NULL  ,gray,Diesel,two
+B.M.W,3series,1998 model,negotiable,"293,292",#N/A,petrol,three
+toyota,Altima,2004,64k,279776.0,RED,DIESEL,4th
+  ford  ,3series,,$54970,,RED,  EV  ,3rd
+chevy,Elantra,'17,6k,unknown,null,diesel,
+TOYOTA,Sentra,1991.0,  69095.00  ,,Green,Unknown,N/A
+Toyota,mustang,1998 model,20218.0,unknown,Gray,petrol,3rd
+Volkswagen,Sentra,  1995  ,90198.0,"297,087",,Gas,4.0
+null,civic,#N/A,N/A,unknown,n/a,Petrol,1.0
+TOYOTA,Golf,'24,,217204KM,gray,Unknown,  N/A  
+Hyundai,camry,1997 model,64k,28520,unknown,gasoline,N/A
+Toyota,  Camry  ,  19  ,negotiable,  270710KM  ,Green,electric,5
+BMW,Elantra,2002.0,90148 USD,unknown,Black,N/A,n/a
+B.M.W,Golf,twenty ten,,4694,BLUE,,three
+Hyundai,  3 Series  ,,91085.0,"8,529",white,Hybrid,3
+Audi,Corolla,98,50867,304861KM,null,plug-in hybrid,two
+Audi,Sentra,twenty twenty,,168095.0,green,n/a,4.0
+Toyota,Camry,94,n/a,155970 km,red,HYBRID,4th
+Nissan,mustang,two thousand,89441,"71,005",black,Petrol,  three  
+chevy,  3series  ,24,19263,2261.0,RED,plug-in hybrid,
+B.M.W,Corolla,2002,65197,346279,null,electric,4.0
+bmw,Golf,1992.0,-,156379KM,BLUE,Electric,
+volkswagen,3 Series,,$65349,125248KM,#N/A,Gas,
+Nissan,camry,two thousand,NA,1411KM,  red  ,Electric,1 owner
+volkswagen,silverado,twenty twenty,91717,"146,119",?,Petrol,4.0
+Volkswagen,camry,2017,65882 USD,"22,319",Green,,4
+NULL,volkswagen,1993 model,$46945,85463 km,NA,diesel,
+ford,  Civic  ,,60168 USD,,  black  ,Hybrid,N/A
+volkswagen,mustang,1991,19005.00,null,gray,,
+Toyota,Civic,1992 model,79642,"  62,005  ",BLUE,petrol,2 owners
+3 Series,Hyundai,2021 model,40702 USD,"346,861",Silver,DIESEL,3
+Nissan,3series,null,  negotiable  ,313061.0,,EV,
+TOYOTA,3 Series,2022 model,49863,14246 km,RED,-,2.0
+chevy,Civic,1996 model,negotiable,167706 km,Gray,petrol,
+Honda,silverado,2019,n/a,178218.1 miles,,EV,N/A
+ford,Civic,15,N/A,84418.9 miles,red,Gas,5th
+Toyota,Altima,96,34946.00,-,RED,hybrid,
+Chevrolet,Elantra,1994,,288942KM,  white  ,Gasoline,one
+VW,Camry,18,,108703,,EV,1 owner
+Volkswagen,F 150,2017,,"220,330",blue,EV,5
+bmw,F-150,,30519.0,307796KM,#N/A,plug-in hybrid,n/a
+Audi,Mustang,twenty twenty,$15294,,Blue,Gas,5 owners
+BMW,Accord,,62436.0,"264,249",gray,PETROL,-
+Audi,Sentra,'24,negotiable,205214KM,Red,  electric  ,
+  nissan  ,Accord,2012.0,N/A,235729.0,,Unknown,N/A
+ford,mustang,1993.0,  -  ,37377 km,Grey,Hybrid,three
+TOYOTA,Golf,1991.0,34k,"214,019",-,petrol,five
+Audi,  A4  ,1998,37748.00,,blue,,3.0
+Toyota,Accord,1992 model,20396 USD,344908KM,Grey,Petrol,2 owners
+Hyundai,A4,2008.0,$71807,229001KM,Gray,-,5
+B.M.W,F 150,2017 model,6080 USD,337025KM,silver,,null
+TOYOTA,Golf,,  null  ,,black,gasoline,
+VW,Altima,1993 model,negotiable,224611,Silver,DIESEL,N/A
+  Hyundai  ,Silverado,  nineteen ninety five  ,48234.0,305757KM,RED,electric,4 owners
+Ford,  Sentra  ,1991,"$84,842",unknown,RED,,5th
+volkswagen,f150,2014 model,74519.0,unknown,  white  ,diesel,N/A
+  Ford  ,F 150,2003 model,N/A,169295.0,Silver,electric,N/A
+toyota,F-150,'99,31729.0,339831.0,Silver,petrol,2
+HONDA,Mustang,,,unknown,black,Petrol,2 owners
+Hyundai,civic,96,68721 USD,206308 km,green,  Diesel  ,1 owner
+bmw,mustang,2008 model,NULL,$6720,Black,Hybrid,N/A
+Ford,  civic  ,N/A,37842.0,156247.4 miles,SILVER,petrol,N/A
+Audi,3series,'01,negotiable,#N/A,White,hybrid,
+toyota,Corolla,'03,N/A,221971,green,diesel,4
+Nissan,camry,'97,74035.00,201185 km,  white  ,plug-in hybrid,
+volkswagen,Accord,,25k,175386KM,Silver,NULL,N/A
+bmw,f150,,14162 USD,,Black,HYBRID,five
+B.M.W,Corolla,2009,29k,-,NULL,electric,1.0
+N/A,Altima,2002 model,34032.00,37802,silver,DIESEL,2.0
+  Ford  ,Accord,1994,,unknown,#N/A,gasoline,  one  
+TOYOTA,F-150,nineteen ninety five,35557.00,174062.2 miles,black,Diesel,N/A
+Toyota,F 150,2006.0,"$78,500",268434,Grey,hybrid,N/A
+Nissan,3series,,,"295,027",RED,DIESEL,4 owners
+Nissan,Elantra,twenty ten,"$89,414",,Silver,Diesel,N/A
+Chevrolet,Mustang,twenty ten,88422.00,150271,Grey,,3.0
+  Volkswagen  ,Civic,,13584.00,,white,Petrol,four
+Ford,mustang,15,N/A,310458KM,black,HYBRID,4th
+Honda,Silverado,1995 model,  89k  ,57586.0,BLUE,hybrid,4
+Audi,camry,95,negotiable,  unknown  ,white,DIESEL,3rd
+Nissan,Camry,2008,77k,"343,121",N/A,PETROL,
+HONDA,silverado,2006,,31412,-,electric,NULL
+Toyota,f150,,$62808,2258KM,BLUE,Unknown,NA
+TOYOTA,camry,,41539 USD,NA,#N/A,Hybrid,null
+HONDA,  Corolla  ,1990 model,$20209,331872.0,silver,Electric,
+Nissan,Civic,'13,  $49718  ,null,black,gasoline,two
+BMW,Mustang,1992,,unknown,Gray,Gasoline,
+BMW,F 150,1999.0,,  -  ,green,DIESEL,4 owners
+Hyundai,  f150  ,,,278193KM,N/A,gasoline,1
+Chevrolet,civic,,$12118,321527KM,Silver,gasoline,5 owners
+B.M.W,  Golf  ,1997 model,negotiable,76498KM,  Blue  ,diesel,five
+#N/A,camry,2009,,80334 km,Green,null,N/A
+Toyota,Silverado,,,251087KM,SILVER,n/a,5 owners
+ford,mustang,1997,N/A,,white,Hybrid,5 owners
+N/A,civic,'95,44225.00,335563,green,gasoline,5 owners
+  B.M.W  ,Altima,,55230,unknown,  unknown  ,Diesel,-
+#N/A,3 Series,  2004  ,66147,316772,gray,PETROL,  N/A  
+chevy,Civic,,32714.0,43434 km,SILVER,HYBRID,4 owners
+nissan,Accord,1993,"$47,167",92691,,plug-in hybrid,4th
+nissan,Civic,2011,  34253.0  ,,blue,Diesel,
+Chevrolet,civic,24,76k,unknown,white,PETROL,2 owners
+ford,camry,,N/A,"144,069",,Petrol,N/A
+Nissan,Accord,'14,82425.0,246028KM,Grey,null,
+toyota,Elantra,98,N/A,219095,,Gas,
+Toyota,mustang,2012,66585.0,297395KM,NULL,gasoline,N/A
+  3series  ,TOYOTA,'21,54455.00,"233,448",Red,Hybrid,2nd
+volkswagen,Civic,,29854.0,"  221,700  ",Gray,Hybrid,N/A
+toyota,F-150,,  N/A  ,137128,unknown,EV,1st
+toyota,mustang,2006.0,85631.00,35723 km,  red  ,Electric,1 owner
+NULL,3series,2008.0,60638,57666 km,gray,HYBRID,
+Audi,A4,2014 model,59480.00,"186,776",N/A,Unknown,2.0
+Silverado,Audi,2000,negotiable,83478.0,SILVER,Hybrid,2 owners
+Audi,silverado,04,N/A,-,RED,EV,1st
+VW,A4,20,N/A,"60,793",NULL,Unknown,N/A
+VW,Golf,  twenty ten  ,$14312,unknown,Grey,Gasoline,5 owners
+ford,3series,13,$27726,  240592 km  ,unknown,  Diesel  ,2nd
+ford,Elantra,1990.0,6027.0,164200.1 miles,red,gasoline,N/A
+Volkswagen,Elantra,  2014  ,negotiable,"125,863",blue,Petrol,  2nd  
+Nissan,camry,1995,41871 USD,349458,SILVER,Petrol,NA
+n/a,camry,twenty ten,-,27480 km,  Green  ,diesel,N/A
+Hyundai,Elantra,nineteen ninety five,n/a,127109 km,Grey,Hybrid,two
+B.M.W,Camry,two thousand and five,"$67,168",106327 km,unknown,HYBRID,
+ford,  Silverado  ,two thousand and five,30409,214521 km,white,hybrid,N/A
+BMW,F 150,two thousand,N/A,354 km,Gray,Electric,five
+Hyundai,  F-150  ,2014,"$45,209",,green,Diesel,5th
+Hyundai,  silverado  ,2021 model,47820,"335,257",-,petrol,
+bmw,Elantra,N/A,17606,332392,  green  ,Petrol,4th
+TOYOTA,Mustang,2009 model,negotiable,347783KM,unknown,EV,4
+  Honda  ,Silverado,'02,"$40,885",unknown,white,EV,5th
+bmw,Mustang,2009,N/A,225770,unknown,  electric  ,5th
+B.M.W,A4,99,79370.0,N/A,Black,EV,1
+B.M.W,N/A,2021,"$83,322",107728.4 miles,White,PETROL,N/A
+HONDA,Accord,,$36018,205909.3 miles,Grey,petrol,5 owners
+Ford,f150,1995 model,"$89,529",unknown,  gray  ,EV,4 owners
+AUDI,Accord,1994,N/A,"259,035",N/A,Electric,3rd
+toyota,  f150  ,2013,"$81,666","127,030",SILVER,Electric,3rd
+B.M.W,Elantra,'13,negotiable,44331 km,red,Gas,N/A
+toyota,Silverado,twenty twenty,31961.00,unknown,blue,Gas,
+bmw,camry,2006,"$37,935",unknown,red,Petrol,N/A
+bmw,Mustang,2016 model,NA,"240,773",,EV,#N/A
+chevy,civic,nineteen ninety five,,$71883,  White  ,  PETROL  ,4.0
+Honda,F-150,93,64k,,Gray,Gasoline,4th
+AUDI,A4,,$82849,"207,318",silver,electric,4.0
+volkswagen,civic,1991,50792.00,190555.0,gray,Diesel,N/A
+TOYOTA,Golf,16,  14k  ,97164.1 miles,BLUE,n/a,  3  
+Honda,silverado,2004 model,  65756.00  ,316329 km,?,diesel,4th
+Ford,Corolla,2024.0,negotiable,89306 km,blue,Unknown,
+Audi,Sentra,,"$83,825",314713 km,red,electric,2.0
+Chevrolet,Elantra,twenty ten,N/A,,White,Gasoline,2.0
+Volkswagen,F 150,1993,,  108622.0  ,?,Petrol,4 owners
+toyota,civic,2020.0,90153.0,,unknown,EV,
+Chevrolet,F-150,nineteen ninety five,37k,36563.0,unknown,Gas,-
+toyota,Sentra,2005 model,N/A,246569,unknown,Hybrid,N/A
+N/A,Elantra,twenty ten,68613.00,unknown,RED,Diesel,2.0
+B.M.W,F 150,nineteen ninety five,58k,163929KM,black,n/a,1 owner
+TOYOTA,Accord,NA,negotiable,,unknown,Electric,one
+Toyota,Civic,2010 model,52243 USD,"167,523",unknown,DIESEL,2
+AUDI,Camry,2004,,unknown,Black,gasoline,  N/A  
+nissan,n/a,'08,25033 USD,#N/A,white,,
+Toyota,civic,NULL,81305 USD,221223 km,black,#N/A,2nd
+Hyundai,Altima,'24,$82123,303767.0,n/a,HYBRID,N/A
+chevy,Elantra,twenty twenty,,  27  ,?,electric,N/A
+Toyota,Accord,2016.0,55546,"302,311",white,plug-in hybrid,3rd
+VW,Elantra,,51334.00,157734KM,Green,PETROL,
+AUDI,Civic,NA,negotiable,336960.0,NA,EV,2 owners
+ford,Civic,'04,50599,230552.0,,hybrid,one
+A4,VW,2006 model,66984.00,  196258KM  ,unknown,  DIESEL  ,3rd
+nissan,Golf,12,12k,,unknown,HYBRID,n/a
+Chevrolet,Elantra,'13,,NULL,,Diesel,N/A
+Audi,Altima,  2015 model  ,N/A,26181.5 miles,RED,,N/A
+Nissan,,  1999.0  ,,,Red,EV,
+B.M.W,Sentra,2024,N/A,91611 km,blue,PETROL,three
+HONDA,F-150,1991 model,90106.00,,white,Unknown,4
+nissan,Accord,2024.0,"$12,293",-,White,Unknown,5.0
+AUDI,F 150,twenty twenty,$72521,107759,Blue,diesel,N/A
+Audi,  F-150  ,01,#N/A,270013 km,Silver,gasoline,4
+nissan,3 Series,2009 model,,101944.7 miles,Silver,HYBRID,N/A
+Ford,Camry,2016,15715,200511,?,Hybrid,5th
+#N/A,Sentra,'14,  21137 USD  ,15978 km,Green,Diesel,N/A
+Chevrolet,  Sentra  ,2021,-,,White,N/A,  4  
+chevy,mustang,2020 model,36536 USD,236535,SILVER,electric,1 owner
+Nissan,3 Series,17,,$41627,unknown,diesel,1.0
+bmw,Silverado,two thousand and five,29173.00,"172,632",Blue,DIESEL,N/A
+B.M.W,f150,,66674.0,unknown,green,DIESEL,  5th  
+Ford,Silverado,'03,22219.0,,silver,Diesel,1.0
+TOYOTA,civic,2012.0,N/A,"105,206",RED,n/a,
+Elantra,VW,,N/A,117450 km,Black,hybrid,3rd
+toyota,Corolla,  2010.0  ,"$77,445","249,246",?,  gasoline  ,
+Toyota,Civic,,  41323.00  ,$37118,Red,PETROL,N/A
+Nissan,f150,'21,19k,25206 km,?,electric,2
+bmw,silverado,two thousand,$4570,"260,637",Gray,electric,3.0
+Volkswagen,Corolla,two thousand and five,65k,196421 km,silver,PETROL,2nd
+toyota,A4,1991 model,49k,106272.8 miles,black,DIESEL,2nd
+Audi,Golf,2019,N/A,26714KM,n/a,petrol,1.0
+Ford,3series,two thousand and five,"$45,096",211377.3 miles,  silver  ,HYBRID,2nd
+Honda,F-150,'02,55810,87893KM,white,Diesel,3
+Volkswagen,Civic,'21,39145,121496.0 miles,SILVER,,
+Volkswagen,Accord,2010 model,N/A,31889.4 miles,SILVER,gasoline,N/A
+NULL,Corolla,2003,$32209,181092KM,Blue,Diesel,five
+bmw,Camry,two thousand,,119709,silver,hybrid,
+TOYOTA,f150,1998.0,"$27,706",unknown,RED,DIESEL,2
+Chevrolet,Mustang,2008 model,#N/A,57344 km,Green,Gasoline,five
+TOYOTA,Mustang,,89917.0,  43852.1 miles  ,BLUE,Petrol,
+VW,Elantra,1996 model,null,,  N/A  ,-,2
+NA,mustang,n/a,$54508,134586 km,unknown,hybrid,4.0
+chevy,  silverado  ,'96,negotiable,208197,green,gasoline,5.0
+chevy,Mustang,,N/A,46128.0 miles,unknown,diesel,  2nd  
+BMW,Corolla,  09  ,  $8171  ,NA,blue,,2 owners
+Audi,mustang,1994,,132985KM,  SILVER  ,Petrol,
+HONDA,Accord,2019 model,negotiable,206919.8 miles,,diesel,  1  
+HONDA,Golf,2003,N/A,283850KM,RED,EV,four
+chevy,Elantra,11,NA,48830.3 miles,Green,HYBRID,2 owners
+nissan,Corolla,2003,NA,69319.0,Grey,,4.0
+B.M.W,3 Series,  97  ,19041,unknown,  unknown  ,hybrid,N/A
+Audi,Mustang,04,N/A,1209.0,SILVER,EV,
+B.M.W,F-150,NA,N/A,,Green,Petrol,3 owners
+toyota,civic,1998,$24122,,white,PETROL,
+HONDA,Altima,2013 model,55568 USD,unknown,N/A,Gasoline,
+Toyota,Corolla,n/a,49k,156005.0,silver,DIESEL,
+volkswagen,Accord,2008.0,73152.0,98901.0,White,Petrol,five
+Hyundai,Camry,twenty ten,"$49,838",23217,Blue,hybrid,
+Volkswagen,F 150,,N/A,280769 km,?,EV,3.0
+nissan,F 150,two thousand,$19076,"181,312",unknown,PETROL,5 owners
+Volkswagen,A4,2000.0,,197337KM,silver,plug-in hybrid,one
+Audi,mustang,90,negotiable,unknown,Grey,EV,four
+Ford,Accord,99,"$63,179",unknown,Blue,Gasoline,4 owners
+Audi,silverado,  2005 model  ,negotiable,169367.0,  unknown  ,  hybrid  ,4th
+toyota,Elantra,09,negotiable,n/a,RED,Electric,three
+HONDA,civic,2015 model,79002 USD,"10,079",Black,electric,2nd
+B.M.W,Elantra,NA,15299,,,Electric,four
+Audi,Mustang,'93,37k,79631 km,  blue  ,Electric,NULL
+HONDA,Sentra,2006 model,negotiable,,gray,Gasoline,3 owners
+chevy,-,  '05  ,$43411,,  Red  ,Petrol,  4  
+toyota,null,08,negotiable,50356 km,red,Diesel,
+Audi,3series,'11,"$54,462",291925,green,Gas,4
+volkswagen,civic,twenty twenty,N/A,316491 km,null,Unknown,N/A
+NULL,Elantra,1992.0,,318567 km,silver,Hybrid,
+silverado,VW,  2020.0  ,16k,310327.0,BLUE,hybrid,N/A
+bmw,Altima,twenty ten,"$54,620",  330876KM  ,Gray,diesel,
+Ford,Golf,  twenty twenty  ,negotiable,88457.4 miles,Grey,Hybrid,N/A
+chevy,  Corolla  ,-,69981.0,295626,red,DIESEL,1 owner
+  volkswagen  ,mustang,,NULL,"81,418",#N/A,,2 owners
+Ford,Sentra,2005,89757,300811KM,Grey,Petrol,4.0
+bmw,mustang,1994,7933.00,115576 km,#N/A,PETROL,
+,Mustang,'93,52645.0,147684.9 miles,  Blue  ,Electric,5
+Mustang,Hyundai,2006,83033 USD,204431.9 miles,  null  ,Unknown,null
+B.M.W,Corolla,1992.0,,NULL,green,Hybrid,three
+B.M.W,3series,,$5323,28079.0,Gray,HYBRID,1.0
+toyota,Mustang,1991,N/A,,Black,Electric,3rd
+chevy,civic,1990 model,,,unknown,Gas,four
