@@ -104,3 +104,60 @@ def write_data(df, output_path):
     print(f"Written to GCS: {output_path}")
     print(f"Processed row count: {df.count()}")
 
+#loading to bigQ directly
+#will change to do using GCSToBigQueryOperator in Airflow DAG, but keeping this here for reference and testing purposes
+def load_to_bigquery(spark, output_path, bq_dataset, bq_table):
+    df = spark.read.parquet(output_path)
+    
+    df.write \
+        .format("bigquery") \
+        .option("table", f"{bq_dataset}.{bq_table}") \
+        .option("temporaryGcsBucket", "etl-migration-1-data") \
+        .option("partitionField", "listing_date") \
+        .option("partitionType", "YEAR") \
+        .option("createDisposition", "CREATE_IF_NEEDED") \
+        .option("writeDisposition", "WRITE_TRUNCATE") \
+        .option("clusteredFields", "car_make,fuel_type") \
+        .mode("overwrite") \
+        .save()
+    
+    print(f"Loaded into BigQuery: {bq_dataset}.{bq_table}")
+
+
+    def main():
+    args = parse_args()
+    
+    spark = create_spark_session()
+    
+    # 1. Read
+    df = read_raw_data(spark, args.input)
+    
+    # 2. Clean column names
+    df = clean_column_names(df)
+    
+    # 3. Cast types
+    df = cast_column_types(df)
+    
+    # 4. Transform
+    df = transform_data(df)
+    
+    # 5. Apply watermark
+    df = apply_watermark(df, args.watermark_date)
+    
+    # 6. Write to GCS
+    write_to_gcs(df, args.output)
+    
+    # 7. Load into BigQuery
+    load_to_bigquery(
+        spark,
+        args.output,
+        bq_dataset="car_listings_dataset",
+        bq_table="car_listings"
+    )
+    
+    spark.stop()
+    print("Pipeline complete.")
+
+if __name__ = "__main__":
+    main()
+
