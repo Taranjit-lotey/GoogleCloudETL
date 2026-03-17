@@ -3,6 +3,7 @@ from pyspark.sql import functions as F
 from pyspark.sql.types import StringType, IntegerType, FloatType
 from datetime import datetime,timedelta
 import random
+import argparse
 
 #Get the parameters from inline
 
@@ -18,7 +19,7 @@ def parse_args():
 def create_spark_session():
     spark = SparkSession.builder.appName("CarDataTransformation").getOrCreate()
 
-    spark.sparkConntext.setLogLevel("WARN")
+    spark.sparkContext.setLogLevel("WARN")
     return spark
 
 #Create schema for the data
@@ -30,7 +31,7 @@ def clean_column_schema(df):
         "price($)":         "price_usd",
         "Mileage(km) ":     "mileage_km",
         "colour/Color":     "color",
-        "fuel_Type":        "fuel_type",
+        " fuel_Type":       "fuel_type",
         "No. of Owners":    "num_owners"
     }
 
@@ -81,7 +82,7 @@ def transform_data(df):
     df = df.filter((F.col("year") >= 1990) & (F.col("year") <= datetime.now().year))
     df = df.filter((F.col("price_usd") >= 500) & (F.col("price_usd") <= 200000))
 
-    df= df.withColumn("total miles_per_year", F.col("mileage_km") / (datetime.now().year - F.col("year")))
+    df= df.withColumn("total_miles_per_year", F.col("mileage_km") / (datetime.now().year - F.col("year")))
 
     #audit column
     df = df.withColumn("audit_timestamp", F.current_timestamp())
@@ -124,19 +125,16 @@ def load_to_bigquery(spark, output_path, bq_dataset, bq_table):
     print(f"Loaded into BigQuery: {bq_dataset}.{bq_table}")
 
 
-    def main():
+def main():
     args = parse_args()
     
     spark = create_spark_session()
     
     # 1. Read
-    df = read_raw_data(spark, args.input)
-    
-    # 2. Clean column names
-    df = clean_column_names(df)
-    
-    # 3. Cast types
-    df = cast_column_types(df)
+    df = read_data(spark, args.input_path)
+
+    # 2. Clean column names + cast types
+    df = clean_data(df)
     
     # 4. Transform
     df = transform_data(df)
@@ -145,12 +143,12 @@ def load_to_bigquery(spark, output_path, bq_dataset, bq_table):
     df = apply_watermark(df, args.watermark_date)
     
     # 6. Write to GCS
-    write_to_gcs(df, args.output)
-    
+    write_data(df, args.output_path)
+
     # 7. Load into BigQuery
     load_to_bigquery(
         spark,
-        args.output,
+        args.output_path,
         bq_dataset="car_listings_dataset",
         bq_table="car_listings"
     )
@@ -158,6 +156,6 @@ def load_to_bigquery(spark, output_path, bq_dataset, bq_table):
     spark.stop()
     print("Pipeline complete.")
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
 
