@@ -95,3 +95,5 @@ delete_cluster = DataprocDeleteClusterOperator(
 )
 
 
+create_cluster >> submit_job >> delete_cluster
+
