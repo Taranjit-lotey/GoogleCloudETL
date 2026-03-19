@@ -1,7 +1,9 @@
 from airflow import DAG
-from airflow.providers.google.cloud.operator.dataproc import \
-      (DataprocClusterCreateOperator, DataprocClusterDeleteOperator, DataprocSubmitJobOperator
-                                                        )
+from airflow.providers.google.cloud.operators.dataproc import (
+    DataprocCreateClusterOperator,
+    DataprocSubmitJobOperator,
+    DataprocDeleteClusterOperator
+)
 
 #days_ago is used to prevent backfilling a dynamic way
 from airflow.utils.dates import days_ago
@@ -52,7 +54,7 @@ CLUSTER_CONFIG = {
     }
 }
 
-create_cluster = DataprocClusterCreateOperator(
+create_cluster = DataprocCreateClusterOperator(
     task_id = "create_cluster",
     project_id = PROJECT_ID,
     cluster_config = CLUSTER_CONFIG,
@@ -67,8 +69,8 @@ PYSPARK_JOB = {
     "pyspark_job": {
         "main_python_file_uri": "gs://etl-migration-1-data/scripts/transform.py",
         "args": [
-            "--input",          "gs://etl-migration-1-data/raw/car_listings.csv",
-            "--output",         "gs://etl-migration-1-data/processed/",
+            "--input_path",          "gs://etl-migration-1-data/raw/car_listings.csv",
+            "--output_path",         "gs://etl-migration-1-data/processed/",
             "--watermark_date", "2020-01-01"
         ],
         "jar_file_uris": [
@@ -79,7 +81,7 @@ PYSPARK_JOB = {
 
 submit_job = DataprocSubmitJobOperator(
     task_id = "submit_pyspark_job",
-    job = pyspark_job,
+    job = PYSPARK_JOB,
     region = REGION,
     project_id = PROJECT_ID,
     dag = dag
