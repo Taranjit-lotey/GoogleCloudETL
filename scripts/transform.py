@@ -91,7 +91,7 @@ def transform_data(df):
 #watermarking old records --this comes directly from the parameters passed in inline 
 def apply_watermark(df, watermark_date):
     #create date using year of car
-    df = df.withColumn("list_date", F.to_date(F.concat(F.col("year"), F.lit("-01-01"))))
+    df = df.withColumn("listing_date", F.to_date(F.concat(F.col("year"), F.lit("-01-01"))))
 
     if watermark_date:
         watermark_date = datetime.strptime(watermark_date, "%Y-%m-%d")

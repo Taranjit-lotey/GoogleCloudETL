@@ -35,7 +35,7 @@ REGION = "us-central1"
 CLUSTER_CONFIG = {
     "master_config": {
         "num_instances": 1,
-        "machine_type_uri": "n1-standard-2", #specifying the machine type for the master node + ram size 
+        "machine_type_uri": "e2-standard-4",
         "disk_config": {
             "boot_disk_type": "pd-standard",
             "boot_disk_size_gb": 32
@@ -43,7 +43,7 @@ CLUSTER_CONFIG = {
     },
     "worker_config": {
         "num_instances": 2,
-        "machine_type_uri": "n1-standard-2",
+        "machine_type_uri": "e2-standard-4",
         "disk_config": {
             "boot_disk_type": "pd-standard",
             "boot_disk_size_gb": 32
@@ -51,6 +51,9 @@ CLUSTER_CONFIG = {
     },
     "software_config": {
         "image_version": "2.0-debian10"
+    },
+    "gce_cluster_config": {
+        "zone_uri": ""
     }
 }
 
@@ -69,7 +72,7 @@ PYSPARK_JOB = {
     "pyspark_job": {
         "main_python_file_uri": "gs://etl-migration-1-data/scripts/transform.py",
         "args": [
-            "--input_path",          "gs://etl-migration-1-data/raw/car_listings.csv",
+            "--input_path",          "gs://etl-migration-1-data/raw/messy_cars.csv",
             "--output_path",         "gs://etl-migration-1-data/processed/",
             "--watermark_date", "2020-01-01"
         ],
@@ -84,6 +87,7 @@ submit_job = DataprocSubmitJobOperator(
     job = PYSPARK_JOB,
     region = REGION,
     project_id = PROJECT_ID,
+    retries=0, # No retries for the job submission, as we want to catch any issues immediately
     dag = dag
 )
 
