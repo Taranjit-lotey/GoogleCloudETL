@@ -1,3 +1,5 @@
+import logging
+
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.types import StringType, IntegerType, FloatType
@@ -25,6 +27,8 @@ def create_spark_session():
 #Create schema for the data
 def clean_column_schema(df):
     rename = {
+
+
         "Car Make":         "car_make",
         "model_NAME":       "model_name",
         "YEAR ":            "year",
@@ -129,7 +133,8 @@ def main():
     args = parse_args()
     
     spark = create_spark_session()
-    
+    logging.info("Starting car data transformation pipeline")   
+
     # 1. Read
     df = read_data(spark, args.input_path)
 

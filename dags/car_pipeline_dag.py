@@ -87,8 +87,31 @@ submit_job = DataprocSubmitJobOperator(
     job = PYSPARK_JOB,
     region = REGION,
     project_id = PROJECT_ID,
-    retries=0, # No retries for the job submission, as we want to catch any issues immediately
+    retries=0,
     dag = dag
+)
+
+# Intentionally slow job to demonstrate Spark UI anti-patterns:
+# data skew, shuffle spike, GC pressure, spill to disk
+SLOW_JOB = {
+    "reference": {"project_id": PROJECT_ID},
+    "placement": {"cluster_name": CLUSTER_NAME},
+    "pyspark_job": {
+        "main_python_file_uri": "gs://etl-migration-1-data/scripts/slow_job.py",
+        "args": [
+            "--input_path",  "gs://etl-migration-1-data/raw/messy_cars.csv",
+            "--output_path", "gs://etl-migration-1-data/slow_job_output/"
+        ]
+    }
+}
+
+submit_slow_job = DataprocSubmitJobOperator(
+    task_id="submit_slow_job",
+    job=SLOW_JOB,
+    region=REGION,
+    project_id=PROJECT_ID,
+    retries=0,
+    dag=dag
 )
 
 delete_cluster = DataprocDeleteClusterOperator(
@@ -96,10 +119,10 @@ delete_cluster = DataprocDeleteClusterOperator(
     project_id=PROJECT_ID,
     region=REGION,
     cluster_name=CLUSTER_NAME,
-    trigger_rule="all_done", # Ensure cluster is deleted even if the job fails
+    trigger_rule="all_done",
     dag=dag
 )
 
 
-create_cluster >> submit_job >> delete_cluster
+create_cluster >> submit_job >> submit_slow_job >> delete_cluster
 
