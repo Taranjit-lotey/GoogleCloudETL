@@ -91,6 +91,28 @@ submit_job = DataprocSubmitJobOperator(
     dag = dag
 )
 
+# Intentionally slow job to demonstrate Spark UI anti-patterns:
+# data skew, shuffle spike, GC pressure, spill to disk
+SLOW_JOB = {
+    "reference": {"project_id": PROJECT_ID},
+    "placement": {"cluster_name": CLUSTER_NAME},
+    "pyspark_job": {
+        "main_python_file_uri": "gs://etl-migration-1-data/scripts/slow_job.py",
+        "args": [
+            "--input_path",  "gs://etl-migration-1-data/raw/messy_cars.csv",
+            "--output_path", "gs://etl-migration-1-data/slow_job_output/"
+        ]
+    }
+}
+
+submit_slow_job = DataprocSubmitJobOperator(
+    task_id="submit_slow_job",
+    job=SLOW_JOB,
+    region=REGION,
+    project_id=PROJECT_ID,
+    retries=0,
+    dag=dag
+)
 
 delete_cluster = DataprocDeleteClusterOperator(
     task_id="delete_cluster",
