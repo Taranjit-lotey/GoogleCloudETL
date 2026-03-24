@@ -8,3 +8,4 @@ airflow.cfg
 standalone_admin_password.txt
 application_default_credentials.json
 docker-compose.yaml
+wholepipe.py

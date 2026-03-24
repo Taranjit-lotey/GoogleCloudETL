@@ -1,4 +1,5 @@
 from airflow import DAG
+from airflow.providers.google.cloud.operators.gcs import GCSObjectExistenceSensor
 from airflow.providers.google.cloud.operators.dataproc import (
     DataprocCreateClusterOperator,
     DataprocSubmitJobOperator,
@@ -26,6 +27,18 @@ dag = DAG(
     start_date = days_ago(1),  # Start from yesterday to avoid backfilling
     catchup = False,  # Don't backfill missed runs
     tags =["car_listings", "etl"]
+)
+
+#create a existing sensor checking raw file landing
+
+create_sensor = GCSObjectExistenceSensor(
+    task_id="check_raw_file",
+    bucket="etl-migration-1-data",
+    object="raw/messy_cars.csv",
+    google_cloud_conn_id="google_cloud_default",
+    timeout=600,  # Timeout after 10 minutes
+    poke_interval=30,  # Check every 30 seconds
+    dag=dag
 )
 
 CLUSTER_NAME = "car-listings-cluster"
