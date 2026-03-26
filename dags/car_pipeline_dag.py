@@ -5,6 +5,10 @@ from airflow.providers.google.cloud.operators.dataproc import (
     DataprocSubmitJobOperator,
     DataprocDeleteClusterOperator
 )
+from airflow.operators.python import PythonOperator
+import sys
+sys.path.insert(0, "/opt/airflow/scripts")
+from validate import validate
 
 #days_ago is used to prevent backfilling a dynamic way
 from airflow.utils.dates import days_ago
@@ -137,5 +141,11 @@ delete_cluster = DataprocDeleteClusterOperator(
 )
 
 
-create_cluster >> submit_job >> submit_slow_job >> delete_cluster
+validate_data = PythonOperator(
+    task_id="validate_data",
+    python_callable=validate,
+    dag=dag
+)
+
+create_sensor >> validate_data >> create_cluster >> submit_job >> submit_slow_job >> delete_cluster
 
