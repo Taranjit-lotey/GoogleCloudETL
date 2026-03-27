@@ -81,7 +81,6 @@ def check_no_duplicate_headers(fieldnames):
     """Catch files where the header row was accidentally repeated as a data row."""
     if fieldnames is None:
         return
-    header_set = set(f.strip().lower() for f in fieldnames)
     duplicates = [col for col in fieldnames if fieldnames.count(col) > 1]
     if duplicates:
         raise ValueError(f"Duplicate column names found: {duplicates}")
