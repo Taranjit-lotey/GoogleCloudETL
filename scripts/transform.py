@@ -1,8 +1,10 @@
 import logging
+import sys
 
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.types import StringType, IntegerType, FloatType
+from pyspark.sql import Window
 from datetime import datetime,timedelta
 import random
 import argparse
@@ -74,6 +76,44 @@ def calculate_miles_per_year(df):
     df = df.withColumn("miles_per_year", F.col("mileage_km") / (current_year - F.col("year")))
     return df
 
+#Data quality checks — runs distributed on Spark, no memory issues
+def validate_data(df):
+    total = df.count()
+
+    # 1. Row count
+    if total < 100:
+        raise ValueError(f"Too few rows after cleaning: {total}. File may be empty or corrupt.")
+
+    # 2. Expected columns exist
+    expected = {"car_make", "model_name", "year", "price_usd", "mileage_km"}
+    missing  = expected - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing columns after rename: {missing}")
+
+    # 3. Null rates on critical columns
+    for col in ["car_make", "model_name", "year", "price_usd", "mileage_km"]:
+        null_count = df.filter(F.col(col).isNull()).count()
+        if null_count / total > 0.5:
+            raise ValueError(f"Column '{col}' is {null_count/total:.0%} null ({null_count}/{total} rows)")
+
+    # 4. Value range checks
+    bad_years  = df.filter(F.col("year").isNotNull() & ~F.col("year").between(1990, datetime.now().year)).count()
+    bad_prices = df.filter(F.col("price_usd").isNotNull() & (F.col("price_usd") < 0)).count()
+    if bad_years / total > 0.1:
+        raise ValueError(f"Too many unrealistic year values: {bad_years}/{total} rows")
+    if bad_prices > 0:
+        raise ValueError(f"Negative price values found: {bad_prices} rows")
+
+    # 5. Duplicates check
+    distinct_count = df.dropDuplicates(subset=["car_make", "model_name", "year"]).count()
+    dupe_count     = total - distinct_count
+    if dupe_count > 0:
+        print(f"[WARNING] {dupe_count} duplicate rows detected (car_make + model_name + year)")
+
+    print(f"[VALIDATION PASSED] {total} rows passed all checks")
+    return df
+
+
 #Standardize column values, drop nulls, filter data
 def transform_data(df):
     # Standardize color values
@@ -81,6 +121,9 @@ def transform_data(df):
 
     # Drop rows with null values in critical columns
     df = df.dropna(subset=["car_make", "model_name", "year", "price_usd", "mileage_km"])
+
+    random_df = spark.createDataFrame([(i, random.random()) for i in range(100)], ["id", "random_value"])
+    df= df.broadcast(random_df).join(df, F.lit(True)).drop("id", "random_value")
 
     # Filter out records with unrealistic year or price
     df = df.filter((F.col("year") >= 1990) & (F.col("year") <= datetime.now().year))
@@ -135,29 +178,38 @@ def main():
     spark = create_spark_session()
     logging.info("Starting car data transformation pipeline")   
 
-    # 1. Read
-    df = read_data(spark, args.input_path)
+    try:
+        # 1. Read
+        df = read_data(spark, args.input_path)
 
-    # 2. Clean column names + cast types
-    df = clean_data(df)
-    
-    # 4. Transform
-    df = transform_data(df)
-    
-    # 5. Apply watermark
-    df = apply_watermark(df, args.watermark_date)
-    
-    # 6. Write to GCS
-    write_data(df, args.output_path)
+        # 2. Clean column names + cast types
+        df = clean_data(df)
 
-    # 7. Load into BigQuery
-    load_to_bigquery(
-        spark,
-        args.output_path,
-        bq_dataset="car_listings_dataset",
-        bq_table="car_listings"
-    )
-    
+        # 3. Validate
+        df = validate_data(df)
+
+        # 4. Transform
+        df = transform_data(df)
+
+        # 5. Apply watermark
+        df = apply_watermark(df, args.watermark_date)
+
+        # 6. Write to GCS
+        write_data(df, args.output_path)
+
+        # 7. Load into BigQuery
+        load_to_bigquery(
+            spark,
+            args.output_path,
+            bq_dataset="car_listings_dataset",
+            bq_table="car_listings"
+        )
+
+    except Exception as e:
+        print(f"[FATAL] Spark job failed: {e}")
+        spark.stop()
+        sys.exit(1)
+
     spark.stop()
     print("Pipeline complete.")
 
